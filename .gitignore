@@ -1,0 +1,36 @@
+# 本发布仓库仅含文档（Docs-first 阶段）
+# 未来开放源码时，核心源码所在大目录涉及密钥/素材/虚拟环境，绝不提交
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# 数据 / 日志 / 密钥（敏感，绝不入库）
+*.db
+*.sqlite
+*.sqlite3
+*.log
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.gpg
+
+# 大体积第三方素材
+*.mp4
+*.mov
+*.zip
+*.tar.gz
+node_modules/
